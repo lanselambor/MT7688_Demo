@@ -1,0 +1,21 @@
+#!/bin/ash /etc/rc.common
+
+START=99
+
+run () {
+	while [ 1 ]
+	do
+		/usr/bin/node /root/openWeatherMap_mt7688/openweathermap.js
+		sleep 5
+	done;
+}
+
+start() {
+	sleep 5   # make sure boot process is done, no more console msgs
+	echo "openweathermap running!"
+	run
+}
+
+stop() {
+	killall /usr/bin/node
+}
