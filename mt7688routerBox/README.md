@@ -26,3 +26,7 @@ config interface 'wan'
 > /etc/init.d/netDetermineBox start &
 > reboot
 </pre>
+
+
+## Using Arduino IDE to upload Arduino sketch
+* Download this repository to your computer and copy the Arduino library to your IDE's library path, open routerBox_Arduino.ino with Arduino IDE compile and upload sketch.
