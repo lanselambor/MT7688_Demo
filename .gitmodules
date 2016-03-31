@@ -1,0 +1,6 @@
+[submodule "mt7688routerBox/Arduino_Library/Adafruit_NeoPixel"]
+	path = mt7688routerBox/Arduino_Library/Adafruit_NeoPixel
+	url = https://github.com/adafruit/Adafruit_NeoPixel
+[submodule "openWeatherMap/Arduino_Library/Adafruit-Thermal-Printer-Library"]
+	path = openWeatherMap/Arduino_Library/Adafruit-Thermal-Printer-Library
+	url = https://github.com/adafruit/Adafruit-Thermal-Printer-Library
