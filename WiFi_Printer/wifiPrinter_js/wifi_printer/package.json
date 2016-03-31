@@ -1,0 +1,16 @@
+{
+  "name": "web_printer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "lambor",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^1.8.7",
+    "connect-redis": "^1.4.6"
+  }
+}
